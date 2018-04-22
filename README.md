@@ -23,7 +23,7 @@ This website focus on pizza. It will encourage the user to fill out a survey rel
 
 ### intended layout
 For all the pages:
-Nevigation bar:  All the page will have idential navigation bar, which contains links to three pages. They are index.php, survey.php and login.php. The navigation bar will always stand at the very top of the website horizontally. The user should be able to go to all three pages at any point of time. After the admin login and reach the admin_data.php, he or she will be able to log out by simply clicking the logout botton. It will take the user back to the login page. From there the user can decide whether to login again or go to index.php or survey.php by using the navigation bar on the top of the page. 
+Nevigation bar:  All the page except for the index.php will have idential navigation bar, which contains links to three pages. They are index.php, survey.php and login.php. The navigation bar will always stand at the very top of the website horizontally. The user should be able to go to all three pages at any point of time. After the admin login and reach the admin_data.php, he or she will be able to log out by simply clicking the logout botton. It will take the user back to the login page. From there the user can decide whether to login again or go to index.php or survey.php by using the navigation bar on the top of the page. 
 
 Pizza logo: All the page will have the pizza logo. The logo is the link that can take the user back to the index.php. It will stay at the top right corner of the page. 
 
