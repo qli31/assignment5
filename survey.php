@@ -1,5 +1,8 @@
 <?php
 
+// Initialize the session
+session_start();
+
 require_once "includes/html-head.php";
 
 ?>
