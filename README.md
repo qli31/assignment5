@@ -5,15 +5,16 @@
 ### Files Purposes
 
 files for admin functionality:
-**register.php** -- sign up to be admin and gain access to the database
-**login.php** -- log in page for admin
-**logout.php** -- log out from the admin accessable page
-**config.php** -- contains database credentials
-**admin_data.php** -- if admin login successfully in login.php, it will forward the user to this page. At this page, the admin (user) can perform the "four functions on the database table" (see, add, edit adn delete)
-**delete.php** -- delete the selected data in the database
-**edit.php** -- edit selected data in the database
-**insert.php** -- insert specfic data in the database
-**select.php** -- select the required data from the database
+
+1.  **register.php** -- sign up to be admin and gain access to the database
+2.  **login.php** -- log in page for admin
+3.  **logout.php** -- log out from the admin accessable page
+4.  **config.php** -- contains database credentials
+5.  **admin_data.php** -- if admin login successfully in login.php, it will forward the user to this page. At this page, the admin (user) can perform the "four functions on the database table" (see, add, edit adn delete)
+6.  **delete.php** -- delete the selected data in the database
+7.  **edit.php** -- edit selected data in the database
+8.  **insert.php** -- insert specfic data in the database
+9.  **select.php** -- select the required data from the database
 
 files that all users can access, no log in needed:
 index.html -- the main page
@@ -45,14 +46,21 @@ For login.php and admin_data.php, the content of the page should stay under the 
 ### Intended Mood/Feeling
 
 For all the pages:
-All the pages excpet index.php should have idential background color or background picture. The background picture for index.php have already chose and kept in the folder.  
- The choose of background color should be related to pizza. For example the color of pepperoni. It should give a "tasty" feeling to the reader. The font for the website should give a yummy and pizza related feeling. My recommendation is to search for "pizza font", which are the fonts commonly used on pizza advertisement. They can help the reader to bring up their memory about pizza.
+All the pages excpet index.php should have idential background color or background picture. The background picture for index.php have already chose and kept in the folder.
+
+The choose of background color should be related to pizza. For example the color of pepperoni. It should give a "tasty" feeling to the reader. The font for the website should give a yummy and pizza related feeling. My recommendation is to search for "pizza font", which are the fonts commonly used on pizza advertisement. They can help the reader to bring up their memory about pizza.
 The color for the nevigation bar should stand out from the background. But not high contrast color, just make sure the user can notice the existance of the nevigation bar.
+
 All the heading should have the same font size and font choice excpet the one in the idex.php. The header should be strong and clear. The header should quickly get the readers' attention so that the reader can understand the main purpose of the website at the very firt glance. The heading in index.php should really stand out and quickly attract the user's attention. I would recommend a relatively large font size.
 
 ### Intended Interactivity
 
-It is recommend for the coder to use ajax for the database and login logout system for this website. (Reference: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php https://www.webslesson.info/2016/02/live-table-add-edit-delete-using-ajax-jquery-in-php-mysql.html) The related files are already in the folder. There will be two databases related to this website. They are the "survey datbase" and the "admin info databse". The general users can access the index.php and survey.php without any limitation. The survey.php will gather the user information and save it in the "survey database".
+It is recommend for the coder to use ajax for the database and login logout system for this website. References:
+
+*   [https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php](https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php)
+*   [https://www.webslesson.info/2016/02/live-table-add-edit-delete-using-ajax-jquery-in-php-mysql.html](https://www.webslesson.info/2016/02/live-table-add-edit-delete-using-ajax-jquery-in-php-mysql.html)
+
+The related files are already in the folder. There will be two databases related to this website. They are the "survey datbase" and the "admin info databse". The general users can access the index.php and survey.php without any limitation. The survey.php will gather the user information and save it in the "survey database".
 
 Here are the information about the html form:
 For both name and email, the input will be in type text, name will be name and email, and value will also be name and email. It is recommanded for the coder to implement an simple email validation.
