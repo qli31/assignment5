@@ -1,7 +1,9 @@
 <nav>
     <ul>
         <li>
-            <a href="index.php">Home</a>
+            <a href="index.php">
+                <img src="images/pizza_logo.png" alt="Pizza logo">
+            </a>
         </li>
         <li>
             <a href="survey.php">Survey</a>

@@ -7,24 +7,21 @@ $output .= '
       <div class="table-responsive">
            <table class="table table-bordered">
                 <tr>
-                     <th width="10%">Id</th>
-                     <th width="40%">First Name</th>
-                     <th width="40%">Last Name</th>
-                     <th width="10%">Delete</th>
+                     <th>Name</th>
+                     <th>Email</th>
+                     <th>Frequency</th>
+                     <th>Favorite</th>
+                     <th>Delete</th>
                 </tr>';
 $rows = mysqli_num_rows($result);
 if ($rows > 0) {
-    if ($rows > 10) {
-        $delete_records = $rows - 10;
-        $delete_sql = "DELETE FROM tbl_sample LIMIT $delete_records";
-        mysqli_query($connect, $delete_sql);
-    }
     while ($row = mysqli_fetch_array($result)) {
         $output .= '
                 <tr>
-                     <td>' . $row["id"] . '</td>
-                     <td class="first_name" data-id1="' . $row["id"] . '" contenteditable>' . $row["first_name"] . '</td>
-                     <td class="last_name" data-id2="' . $row["id"] . '" contenteditable>' . $row["last_name"] . '</td>
+                     <td class="name" data-id1="' . $row["id"] . '" contenteditable>' . $row["name"] . '</td>
+                     <td class="email" data-id2="' . $row["id"] . '" contenteditable>' . $row["email"] . '</td>
+                     <td class="frequency" data-id3="' . $row["id"] . '" contenteditable>' . $row["frequency"] . '</td>
+                     <td class="favorite" data-id4="' . $row["id"] . '" contenteditable>' . $row["favorite"] . '</td>
                      <td><button type="button" name="delete_btn" data-id3="' . $row["id"] . '" class="btn btn-xs btn-danger btn_delete">x</button></td>
                 </tr>
            ';
@@ -32,8 +29,10 @@ if ($rows > 0) {
     $output .= '
            <tr>
                 <td></td>
-                <td id="first_name" contenteditable></td>
-                <td id="last_name" contenteditable></td>
+                <td id="name" contenteditable></td>
+                <td id="email" contenteditable></td>
+                <td id="frequency" contenteditable></td>
+                <td id="favorite" contenteditable></td>
                 <td><button type="button" name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td>
            </tr>
       ';
@@ -41,8 +40,10 @@ if ($rows > 0) {
     $output .= '
 				<tr>
 					<td></td>
-					<td id="first_name" contenteditable></td>
-					<td id="last_name" contenteditable></td>
+                    <td id="name" contenteditable></td>
+                    <td id="email" contenteditable></td>
+                    <td id="frequency" contenteditable></td>
+                    <td id="favorite" contenteditable></td>
 					<td><button type="button" name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td>
 			   </tr>';
 }
