@@ -1,0 +1,153 @@
+.hero img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+/*.z-pattern a {
+	position: absolute;
+	z-index: 2;
+	color: white;
+}
+
+.z-pattern h1 {
+	position: absolute;
+	z-index: 2;
+}
+
+.z-pattern p {
+	position: absolute;
+	z-index: 2;
+}*/
+
+.primary {
+	position: absolute;
+	z-index: 2;
+	left: 30px;
+	top: 15px;
+}
+
+.primary img {
+	height: 160px;
+	width: 160px;
+}
+
+.primary img:hover {
+	height: 165px;
+	width: 165px;
+}
+
+.strong p {
+	position: absolute;
+	z-index: 2;
+	right: 20px;
+	color: white;
+}
+
+.weak p {
+	position: absolute;
+	z-index: 2;
+	bottom: 20px;
+	left: 20px;
+	color: white;
+}
+
+.center h1 {
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	margin-left: -30px;
+	top: 50%;
+	margin-top: -50px;	
+	color: white;
+}
+
+.center p {
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	margin-left: -180px;
+	margin-top: -10px;
+	top: 50%;	
+	color: white;
+}
+
+.terminal a {
+	position: absolute;
+	z-index: 2;
+	right: 20px;
+	bottom: 30px;
+	color: white;
+}
+
+.terminal a:hover {
+	color: red;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 9px 0px ;
+	border-collapse: collapse;
+	background-color: #D44E2A;
+	z-index: 3;
+	width: 100%;
+	position: absolute;
+	top: 140px;
+	left: 0;
+	/*opacity: 0.8;*/
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 70px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu a:hover { color: #EDB91F;}
+
+.logo img {
+	height: 120px;
+	width: 120px;
+	position: absolute;
+	z-index: 2;
+	right: 20px;
+	top: 10px;
+}
+
+.logo img:hover {
+	height: 125px;
+	width: 125px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 180px;
+}
+
+.title h1 {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: #EDB91F;
+	padding-top: 45px;
+	margin-top: -20px;
+	padding-bottom: 23px;
+	color: white;
+	text-align: center;
+	font-size: 80px;
+}
+
+
+
+

@@ -1,10 +1,11 @@
-<nav>
+<div class="logo"> 
+    <a href="index.php">
+       <img src="images/pizza_logo.png" alt="Pizza logo">
+    </a>
+</div>
+
+<nav class="menu">
     <ul>
-        <li>
-            <a href="index.php">
-                <img src="images/pizza_logo.png" alt="Pizza logo">
-            </a>
-        </li>
         <li>
             <a href="survey.php">Survey</a>
         </li>

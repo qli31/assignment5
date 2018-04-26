@@ -37,7 +37,7 @@ Header: except for the index.php, all the pages will have header at the top of t
 index.php -- This page will use z- pattern to attract users attention. The left up corner will be the pizza logo for the website. It is in the class "primary", which stand for the primary optical area. The right up corner will be the login for the admin. It is in the class "strong", which stand for strong follow area. The left down corner will be the a text to encourage the users to do the survey (example: fill out the survey and get free pizza). It is in the class "weak", which stand for weak visual area. The right down corner will the link for user to go survey.php to fill out the survey. It is in the class "terminal", which stand for the terminal area. The center of the page will be a big heading for pizza and a subtitle right under the heading. The heading will be at the center of the page.
 
 survey.php -- This page will contain the heading of "Yummy pizza, Yummy survey". The survey will ask for users' name, email and the following two questions.
-How offen do you eat pizza? -- for thowhis question we are expecting the user to give an interger. It is recommoned for the coder to implement a plugin to check for user input if possible. The input will be in type text, name frequence and id frequence.
+How offen do you eat pizza? -- for thowhis question we are expecting the user to give an integer. It is recommoned for the coder to implement a plugin to check for user input if possible. The input will be in type text, name frequence and id frequence.
 What is your favourite kind of pizza? -- for this question we are expecting the respond to be in type char. The input will be in type text, name favourite and id favourite.
 For both name and email, the input will be in type text, name will be name and email, and value will also be name and email. It is recommanded for the coder to implement an simple email validation.
 All the content will stay under heading and navigation bar. It should be at the middle of the page.
@@ -50,9 +50,9 @@ For all the pages:
 All the pages excpet index.php should have idential background color or background picture. The background picture for index.php have already chose and kept in the folder.
 
 The choose of background color should be related to pizza. For example the color of pepperoni. It should give a "tasty" feeling to the reader. The font for the website should give a yummy and pizza related feeling. My recommendation is to search for "pizza font", which are the fonts commonly used on pizza advertisement. They can help the reader to bring up their memory about pizza.
-The color for the nevigation bar should stand out from the background. But not high contrast color, just make sure the user can notice the existance of the nevigation bar.
+The color for the navigation bar should stand out from the background. But not high contrast color, just make sure the user can notice the existance of the nevigation bar.
 
-All the heading should have the same font size and font choice excpet the one in the idex.php. The header should be strong and clear. The header should quickly get the readers' attention so that the reader can understand the main purpose of the website at the very firt glance. The heading in index.php should really stand out and quickly attract the user's attention. I would recommend a relatively large font size.
+All the heading should have the same font size and font choice excpet the one in the index.php. The header should be strong and clear. The header should quickly get the readers' attention so that the reader can understand the main purpose of the website at the very firt glance. The heading in index.php should really stand out and quickly attract the user's attention. I would recommend a relatively large font size.
 
 ### Intended Interactivity
 

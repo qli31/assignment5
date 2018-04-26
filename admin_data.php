@@ -7,11 +7,12 @@ require_once "includes/html-head.php";
 ?>
 
     <body>
+        <?php
+        require_once "includes/navbar.php";
+        ?>
 
         <div class="container">
-            <?php
-require_once "includes/navbar.php";
-?>
+            
                 <h2>Pizza Admin data managing</h2>
 
                 <br />
@@ -25,6 +26,7 @@ require_once "includes/navbar.php";
     </body>
 
     </html>
+
     <script>
         $(document).ready(function () {
             function fetch_data() {

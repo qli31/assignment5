@@ -69,8 +69,11 @@ require_once "includes/html-head.php";
 
 	<body>
 		<?php
-require_once "includes/navbar.php";
-?>
+		require_once "includes/navbar.php";
+		?>
+
+		<div class="container">
+
 			<h1>Yummy Pizza, Yummy Survey!</h1>
 
 			<form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>" method="POST">
@@ -105,6 +108,7 @@ require_once "includes/navbar.php";
 				<input type="submit" name="submit" id="submit" value="submit">
 
 			</form>
+		</div>
 
 	</body>
 

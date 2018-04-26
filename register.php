@@ -90,11 +90,11 @@ require_once "includes/html-head.php";
 ?>
 
     <body>
+        <?php
+            require_once "includes/navbar.php";
+        
+        ?>
         <div class="container">
-
-            <?php
-require_once "includes/navbar.php";
-?>
 
                 <h2>Admin Sign Up</h2>
                 <p>Please fill this form to create an account.</p>
