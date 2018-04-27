@@ -74,7 +74,7 @@ require_once "includes/html-head.php";
 
 		<div class="container">
 
-			<h1>Yummy Pizza, Yummy Survey!</h1>
+			<h2>Yummy Pizza, Yummy Survey!</h2>
 
 			<form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>" method="POST">
 

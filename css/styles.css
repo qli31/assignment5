@@ -8,22 +8,6 @@
 }
 
 
-/*.z-pattern a {
-	position: absolute;
-	z-index: 2;
-	color: white;
-}
-
-.z-pattern h1 {
-	position: absolute;
-	z-index: 2;
-}
-
-.z-pattern p {
-	position: absolute;
-	z-index: 2;
-}*/
-
 .primary {
 	position: absolute;
 	z-index: 2;
@@ -46,47 +30,66 @@
 	z-index: 2;
 	right: 20px;
 	color: white;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 25px;
+	top: 0;
+	text-shadow: 0 0 30px black;
 }
 
 .weak p {
 	position: absolute;
 	z-index: 2;
-	bottom: 20px;
+	bottom: 0;
 	left: 20px;
 	color: white;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 25px;
+	text-shadow: 0 0 30px black;
 }
 
 .center h1 {
 	position: absolute;
 	z-index: 2;
 	left: 50%;
-	margin-left: -30px;
+	margin-left: -50px;
 	top: 50%;
-	margin-top: -50px;	
+	margin-top: -80px;	
 	color: white;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 4px;
+	text-shadow: 0 0 30px black;
+	font-size: 50px;
 }
 
 .center p {
 	position: absolute;
 	z-index: 2;
-	left: 50%;
-	margin-left: -180px;
+	left: 29%;
+	right: 20%;
 	margin-top: -10px;
 	top: 50%;	
 	color: white;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 25px;
+	text-shadow: 0 0 30px black;
+
 }
 
 .terminal a {
 	position: absolute;
 	z-index: 2;
 	right: 20px;
-	bottom: 30px;
+	bottom: 25px;
 	color: white;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 30px;
+	text-shadow: 0 0 30px black;
 }
 
 .terminal a:hover {
 	color: red;
 }
+
 
 .menu ul {
 	list-style-type: none;
@@ -140,13 +143,21 @@
 	left: 0;
 	top: 0;
 	background-color: #EDB91F;
-	padding-top: 45px;
+	padding-top: 15px;
 	margin-top: -20px;
-	padding-bottom: 23px;
+	padding-bottom: 5px;
 	color: white;
 	text-align: center;
 	font-size: 80px;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 4px;
 }
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
 
 
 
