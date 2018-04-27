@@ -1,5 +1,7 @@
 <?php
 
+$title = "Register";
+
 session_start();
 
 // Include config file
@@ -91,10 +93,10 @@ require_once "includes/html-head.php";
 
     <body>
         <?php
-            require_once "includes/navbar.php";
-        
-        ?>
-        <div class="container">
+require_once "includes/navbar.php";
+
+?>
+            <div class="container">
 
                 <h2>Admin Sign Up</h2>
                 <p>Please fill this form to create an account.</p>
@@ -127,7 +129,11 @@ require_once "includes/html-head.php";
                     <p>Already have an account?
                         <a href="login.php">Login here</a>.</p>
                 </form>
-        </div>
+            </div>
+
+                    <?php
+require_once "includes/footer.php";
+?>
 
     </body>
 

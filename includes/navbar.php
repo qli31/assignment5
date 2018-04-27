@@ -1,6 +1,6 @@
-<div class="logo"> 
+<div class="logo">
     <a href="index.php">
-       <img src="images/pizza_logo.png" alt="Pizza logo">
+        <img src="images/pizza_logo.png" alt="Pizza logo">
     </a>
 </div>
 
@@ -25,7 +25,7 @@ if (!isset($_SESSION['username']) || empty($_SESSION['username'])) {
     <a href='admin_data.php'>Admin</a>
 </li>
 <li>
-    <a href='includes/logout.php'>Logout</a>
+    <a href='logout.php'>Logout</a>
 </li>
     ";
 }

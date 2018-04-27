@@ -1,6 +1,12 @@
 <?php
 
+$title = "Admin";
+
+// Initialize the session
 session_start();
+if (!isset($_SESSION['username'])) {
+    header("location: login.php");
+}
 
 require_once "includes/html-head.php";
 
@@ -8,11 +14,11 @@ require_once "includes/html-head.php";
 
     <body>
         <?php
-        require_once "includes/navbar.php";
-        ?>
+require_once "includes/navbar.php";
+?>
 
-        <div class="container">
-            
+            <div class="container">
+
                 <h2>Pizza Admin data managing</h2>
 
                 <br />
@@ -22,7 +28,12 @@ require_once "includes/html-head.php";
                     <span id="result"></span>
                     <div id="live_data"></div>
                 </div>
-        </div>
+            </div>
+
+                    <?php
+require_once "includes/footer.php";
+?>
+
     </body>
 
     </html>

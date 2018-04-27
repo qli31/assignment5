@@ -1,5 +1,7 @@
 <?php
 
+$title = "Survey";
+
 // Initialize the session
 session_start();
 
@@ -67,49 +69,53 @@ require_once "includes/html-head.php";
 
 ?>
 
-	<body>
-		<?php
-		require_once "includes/navbar.php";
-		?>
+    <body>
+        <?php
+require_once "includes/navbar.php";
+?>
 
-		<div class="container">
+            <div class="container">
 
-			<h2>Yummy Pizza, Yummy Survey!</h2>
+                <h2>Yummy Pizza, Yummy Survey!</h2>
 
-			<form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>" method="POST">
+                <form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]); ?>" method="POST">
 
-				<div class="nameArea">
-					<label for="name">Name: </label>
-					<input type="text" name="name" id="name">
-				</div>
+                    <div class="nameArea">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name">
+                    </div>
 
-				<div class="emailArea">
-					<label for="email">Email: </label>
-					<input type="email" name="email" id="email">
-				</div>
+                    <div class="emailArea">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email">
+                    </div>
 
-				<div class="frequencyArea">
-					<label>How often do you eat pizza?</label>
-					<input type="radio" name="frequency" id="daily" value="daily">
-					<label for="daily">Daily</label>
-					<input type="radio" name="frequency" id="weekly" value="weekly">
-					<label for="weekly">Weekly</label>
-					<input type="radio" name="frequency" id="biweekly" value="biweekly">
-					<label for="biweekly">Bi-Weekly</label>
-					<input type="radio" name="frequency" id="monthly" value="monthly">
-					<label for="monthly">Monthly</label>
-				</div>
+                    <div class="frequencyArea">
+                        <label>How often do you eat pizza?</label>
+                        <input type="radio" name="frequency" id="daily" value="daily">
+                        <label for="daily">Daily</label>
+                        <input type="radio" name="frequency" id="weekly" value="weekly">
+                        <label for="weekly">Weekly</label>
+                        <input type="radio" name="frequency" id="biweekly" value="biweekly">
+                        <label for="biweekly">Bi-Weekly</label>
+                        <input type="radio" name="frequency" id="monthly" value="monthly">
+                        <label for="monthly">Monthly</label>
+                    </div>
 
-				<div class="favoriteArea">
-					<label for="favorite">What's your favorite type of pizza?</label>
-					<input type="text" name="favorite" id="favorite">
-				</div>
+                    <div class="favoriteArea">
+                        <label for="favorite">What's your favorite type of pizza?</label>
+                        <input type="text" name="favorite" id="favorite">
+                    </div>
 
-				<input type="submit" name="submit" id="submit" value="submit">
+                    <input type="submit" name="submit" id="submit" value="submit">
 
-			</form>
-		</div>
+                </form>
+            </div>
 
-	</body>
+                    <?php
+require_once "includes/footer.php";
+?>
 
-	</html>
+    </body>
+
+    </html>

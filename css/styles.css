@@ -1,3 +1,7 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
 .hero img {
 	width: 100%;
 	height: 100%;
@@ -6,7 +10,6 @@
 	left: 0;
 	z-index: 1;
 }
-
 
 .primary {
 	position: absolute;
@@ -30,7 +33,7 @@
 	z-index: 2;
 	right: 20px;
 	color: white;
-	font-family: 'Gamja Flower', cursive;
+	font-family: "Gamja Flower", cursive;
 	font-size: 25px;
 	top: 0;
 	text-shadow: 0 0 30px black;
@@ -42,7 +45,7 @@
 	bottom: 0;
 	left: 20px;
 	color: white;
-	font-family: 'Gamja Flower', cursive;
+	font-family: "Gamja Flower", cursive;
 	font-size: 25px;
 	text-shadow: 0 0 30px black;
 }
@@ -53,9 +56,9 @@
 	left: 50%;
 	margin-left: -50px;
 	top: 50%;
-	margin-top: -80px;	
+	margin-top: -80px;
 	color: white;
-	font-family: 'Pacifico', cursive;
+	font-family: "Pacifico", cursive;
 	letter-spacing: 4px;
 	text-shadow: 0 0 30px black;
 	font-size: 50px;
@@ -67,12 +70,11 @@
 	left: 29%;
 	right: 20%;
 	margin-top: -10px;
-	top: 50%;	
+	top: 50%;
 	color: white;
-	font-family: 'Gamja Flower', cursive;
+	font-family: "Gamja Flower", cursive;
 	font-size: 25px;
 	text-shadow: 0 0 30px black;
-
 }
 
 .terminal a {
@@ -81,7 +83,7 @@
 	right: 20px;
 	bottom: 25px;
 	color: white;
-	font-family: 'Gamja Flower', cursive;
+	font-family: "Gamja Flower", cursive;
 	font-size: 30px;
 	text-shadow: 0 0 30px black;
 }
@@ -90,13 +92,12 @@
 	color: red;
 }
 
-
 .menu ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 9px 0px ;
+	padding: 9px 0px;
 	border-collapse: collapse;
-	background-color: #D44E2A;
+	background-color: #d44e2a;
 	z-index: 3;
 	width: 100%;
 	position: absolute;
@@ -111,11 +112,19 @@
 }
 
 .menu a {
+	display: block;
 	text-decoration: none;
 	color: white;
 }
 
-.menu a:hover { color: #EDB91F;}
+.menu a:hover {
+	color: #edb91f;
+}
+
+.menu a.is-current {
+	color: #000;
+	border-bottom: 2px solid #edb91f;
+}
 
 .logo img {
 	height: 120px;
@@ -142,23 +151,33 @@
 	width: 100%;
 	left: 0;
 	top: 0;
-	background-color: #EDB91F;
+	background-color: #edb91f;
 	padding-top: 15px;
 	margin-top: -20px;
 	padding-bottom: 5px;
 	color: white;
 	text-align: center;
 	font-size: 80px;
-	font-family: 'Pacifico', cursive;
+	font-family: "Pacifico", cursive;
 	letter-spacing: 4px;
 }
 
-body {
-	font-family: 'Roboto', sans-serif;
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #d44e2a;
+	color: white;
+	text-align: center;
 }
 
+form {
+	border: 1px solid #d44e2a;
+	padding: 1em;
+	margin: 0.5em;
+}
 
-
-
-
-
+form input {
+	margin-top: 0.75em;
+}
