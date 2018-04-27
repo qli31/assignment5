@@ -72,4 +72,29 @@ The admin can register and login to admin_data.php. The admin_data can only be a
 
 ## Design
 
+### Layout
+
+Z-pattern - The home (index) page uses a z-pattern. The primary optical area is on the top left and features the website logo. The strong follow area on the top right tells the reader the main purpose of the site: to have the reader complete a survey. The weak area in the bottom left mentions to that we want to hear the reader's opinions, and finally in the terminal area of the bottom right, we call to action with a link that takes the reader to the survey.
+
+### CRAP Principles
+
+Constrast - The home page features a color picture of pizza, with white font. The white font constrasts with the brightly colored background to increase the readability of the text. The navbar is a pepperoni red and the title is cheese, and they fit with the overall theme of the webiste and also constrast sharply to create a clean, aesthetic website.
+
+Reptition - The navbar and the title are elements that are repeated throughout every page of the website besides the home page to make the website tie together. The logo of the website is feature on every single page, and defines the site and allows a quick access to the home page.
+
+Alignment - The website logo is smartly aligned with the title of the website. The content of each page, the h2 and the paragrah are left aligned neatly.
+
+Proximity - Due to a lack of content on this site, there is not a lot of things to show proximity, but the title for each section is placed closer to the text it is describing so that it is clear they belong together.
+
+### Typography and Readability
+
+Fonts - I used the font Pacifico on the title of the website. The curly and bulky font goes with pizza. The fonts appears similiar to pizza brands such as pizza hut and dominos, and the curliness makes it look more sophisticated and showing its italian origin. I used the font Roboto for the body of the site, because it is clean, simple and increases the readability of the site. Finally I used the font Gamja Flower for the text on the home page to create a handwritten look. It creates a feel that the pizza is homemade, local and fresh and delicious. The handwritten look creates a more homey and personal touch to it.
+
+Kerning - I added 4px letter spacing to increase readability
+
+### Color Selection
+
+I chose colors that represent things on a pizza. I used the colors that was similar to peperoni on the navbar, and used a cheese looking yellow color on the background for the website title. The hover over the links are red, the color of the pizza sauce. These colors go well with the theme of the website and creates a yummy looking color scheme.
+
+
 ## Coder
