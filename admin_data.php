@@ -30,7 +30,7 @@ require_once "includes/navbar.php";
                 </div>
             </div>
 
-                    <?php
+            <?php
 require_once "includes/footer.php";
 ?>
 
@@ -51,22 +51,34 @@ require_once "includes/footer.php";
             }
             fetch_data();
             $(document).on('click', '#btn_add', function () {
-                var first_name = $('#first_name').text();
-                var last_name = $('#last_name').text();
-                if (first_name == '') {
-                    alert("Enter First Name");
+                var name = $('#name').text();
+                var email = $('#email').text();
+                var frequency = $('#frequency').text();
+                var favorite = $('#favorite').text();
+                if (name == '') {
+                    alert("Enter A Name");
                     return false;
                 }
-                if (last_name == '') {
-                    alert("Enter Last Name");
+                if (email == '') {
+                    alert("Enter An Email");
+                    return false;
+                }
+                if (frequency == '') {
+                    alert("Enter A Frequency");
+                    return false;
+                }
+                if (favorite == '') {
+                    alert("Enter A Favorite");
                     return false;
                 }
                 $.ajax({
                     url: "includes/insert.php",
                     method: "POST",
                     data: {
-                        first_name: first_name,
-                        last_name: last_name
+                        name: name,
+                        email: email,
+                        frequency: frequency,
+                        favorite: favorite
                     },
                     dataType: "text",
                     success: function (data) {
@@ -92,18 +104,28 @@ require_once "includes/footer.php";
                     }
                 });
             }
-            $(document).on('blur', '.first_name', function () {
+            $(document).on('blur', '.name', function () {
                 var id = $(this).data("id1");
-                var first_name = $(this).text();
-                edit_data(id, first_name, "first_name");
+                var name = $(this).text();
+                edit_data(id, name, "name");
             });
-            $(document).on('blur', '.last_name', function () {
+            $(document).on('blur', '.email', function () {
                 var id = $(this).data("id2");
-                var last_name = $(this).text();
-                edit_data(id, last_name, "last_name");
+                var email = $(this).text();
+                edit_data(id, email, "email");
+            });
+            $(document).on('blur', '.frequency', function () {
+                var id = $(this).data("id3");
+                var frequency = $(this).text();
+                edit_data(id, frequency, "frequency");
+            });
+            $(document).on('blur', '.favorite', function () {
+                var id = $(this).data("id4");
+                var favorite = $(this).text();
+                edit_data(id, name, "favorite");
             });
             $(document).on('click', '.btn_delete', function () {
-                var id = $(this).data("id3");
+                var id = $(this).data("id5");
                 if (confirm("Are you sure you want to delete this?")) {
                     $.ajax({
                         url: "includes/delete.php",

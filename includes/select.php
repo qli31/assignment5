@@ -22,7 +22,7 @@ if ($rows > 0) {
                      <td class="email" data-id2="' . $row["id"] . '" contenteditable>' . $row["email"] . '</td>
                      <td class="frequency" data-id3="' . $row["id"] . '" contenteditable>' . $row["frequency"] . '</td>
                      <td class="favorite" data-id4="' . $row["id"] . '" contenteditable>' . $row["favorite"] . '</td>
-                     <td><button type="button" name="delete_btn" data-id3="' . $row["id"] . '" class="btn btn-xs btn-danger btn_delete">x</button></td>
+                     <td><button type="button" name="delete_btn" data-id5="' . $row["id"] . '" class="btn btn-xs btn-danger btn_delete">x</button></td>
                 </tr>
            ';
     }
