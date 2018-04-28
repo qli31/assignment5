@@ -1,6 +1,7 @@
 # Assignment 5
 
 ## Information Architecture
+
 ATTENTION: Since the readme has serveral updates, please let me know if there is any kind of inconsistent in the description. I will surely clarify it. Also if there is anything you find unclear, please contact me on slack or email (qli31@u.rochester.edu) me. Thank you. :D
 
 ### Files Purposes
@@ -96,5 +97,24 @@ Kerning - I added 4px letter spacing to increase readability
 
 I chose colors that represent things on a pizza. I used the colors that was similar to peperoni on the navbar, and used a cheese looking yellow color on the background for the website title. The hover over the links are red, the color of the pizza sauce. These colors go well with the theme of the website and creates a yummy looking color scheme.
 
-
 ## Coder
+
+### Validation
+
+*   HTML and CSS validated without error.
+*   Entire website meets web standards and follows best practices
+
+### Menu Highlighter
+
+*   `menu-highlighter.js` is used to highlight the current page in the navbar.
+
+### Connection to Database
+
+*   Both log in and survey is connected to the online database and works fine.
+
+### Admin page
+
+*   Ability to see all the surveys, in table form
+*   Ability to add records to the database table
+*   Ability to edit any of the records in the database table
+*   Ability to delete any of the records in the database table
