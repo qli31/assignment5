@@ -111,6 +111,7 @@ I chose colors that represent things on a pizza. I used the colors that was simi
 ### Connection to Database
 
 *   Both log in and survey is connected to the online database and works fine.
+*   Created tables in database for Survey and Login
 
 ### Admin page
 
