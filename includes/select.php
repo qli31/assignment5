@@ -11,7 +11,7 @@ $output .= '
                      <th>Email</th>
                      <th>Frequency</th>
                      <th>Favorite</th>
-                     <th>Delete</th>
+                     <th>Update</th>
                 </tr>';
 $rows = mysqli_num_rows($result);
 if ($rows > 0) {
@@ -28,7 +28,6 @@ if ($rows > 0) {
     }
     $output .= '
            <tr>
-                <td></td>
                 <td id="name" contenteditable></td>
                 <td id="email" contenteditable></td>
                 <td id="frequency" contenteditable></td>
@@ -39,7 +38,6 @@ if ($rows > 0) {
 } else {
     $output .= '
 				<tr>
-					<td></td>
                     <td id="name" contenteditable></td>
                     <td id="email" contenteditable></td>
                     <td id="frequency" contenteditable></td>

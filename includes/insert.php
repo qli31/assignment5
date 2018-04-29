@@ -1,6 +1,12 @@
 <?php
 require_once "config.php";
-$sql = "INSERT INTO survey(name, email, frequency, favorite) VALUES('" . $_POST["name"] . "', '" . $_POST["email"] . $_POST["frequency"] . "', '" . $_POST["favorite"] . "')";
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$frequency = $_POST['frequency'];
+$favorite = $_POST['favorite'];
+
+$sql = "INSERT INTO survey(name, email, frequency, favorite) VALUES('$name', '$email', '$frequency', '$favorite')";
 if (mysqli_query($connect, $sql)) {
     echo 'Data Inserted';
 }

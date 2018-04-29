@@ -25,7 +25,9 @@ require_once "includes/html-head.php";
 			</div>
 			<div class="strong">
 				<!-- Strong Follow Area -->
-				<p>Get a free pizza for 1 Min Survey! Yummy! </p>
+				<a href="login.php">
+				<p>Click here for admin login</p>
+				</a>
 			</div>
 
 		</header>
@@ -41,7 +43,7 @@ require_once "includes/html-head.php";
 
 			<div class="weak">
 				<!-- Weak Visual Area -->
-				<p>Let us know you think about pizza!</p>
+				<p>Get a free pizza for filling in our survey!</p>
 			</div>
 			<div class="terminal">
 				<!-- Terminal Area -->

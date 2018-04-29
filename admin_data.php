@@ -50,7 +50,7 @@ require_once "includes/footer.php";
                 });
             }
             fetch_data();
-            $(document).on('click', '#btn_add', function () {
+            $(document).on('click', '#btn_add', function() {
                 var name = $('#name').text();
                 var email = $('#email').text();
                 var frequency = $('#frequency').text();
@@ -81,7 +81,7 @@ require_once "includes/footer.php";
                         favorite: favorite
                     },
                     dataType: "text",
-                    success: function (data) {
+                    success: function(data) {
                         alert(data);
                         fetch_data();
                     }
